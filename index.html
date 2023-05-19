@@ -247,7 +247,7 @@
       
       <a class="index-excerpt index-excerpt__noimg" href="/2023/04/05/%E6%9C%AA%E5%91%BD%E5%90%8D/" target="_self">
         <div>
-          Hello world！！！ 测试更新
+          Hello world！！！ 测试一下连接是否成功
         </div>
       </a>
 
@@ -429,8 +429,8 @@
       
         jQuery.ajax({
           type: 'GET',
-          url: 'https://v2.jinrishici.com/sentence',
-          headers: {"X-User-Token:RgU1rBKtLym/MhhYIXs42WNoqLyZeXY3EkAcDNrcfKkzj8ILIsAP1Hx0NGhdOO1I":null},
+          url: 'https://v2.jinrishici.com/info',
+          headers: {},
           dataType: 'json',
           success: function(result) {
             var apiText;
@@ -453,7 +453,7 @@
           },
           error: function(xhr, status, error) {
             if (error) {
-              console.error('Failed to request https://v2.jinrishici.com/sentence:', error);
+              console.error('Failed to request https://v2.jinrishici.com/info:', error);
             }
             typing(text);
           }
