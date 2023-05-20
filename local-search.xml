@@ -8,15 +8,13 @@
     <link href="/2023/05/19/hexo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B%E4%BB%A5%E5%8F%8A%E7%BE%8E%E5%8C%96/"/>
     <url>/2023/05/19/hexo%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B%E4%BB%A5%E5%8F%8A%E7%BE%8E%E5%8C%96/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h1 id="TO-DO"><a href="#TO-DO" class="headerlink" title="TO DO"></a>TO DO</h1><ul><li><input disabled="" type="checkbox"> 域名备案</li><li><input disabled="" type="checkbox"> 首页自动获取诗句</li><li><input disabled="" type="checkbox"> 文章评论</li></ul><hr><p>终于，这个博客算是搭建起来了。一个精美的笔记本已经制作好了，接下来就需要好好地写点东西，以增加这个“笔记本”的价值。</p><p>这第一篇文章便是记录一下这个博客网站的建立过程。</p><p>本来是打算自己来写html文件的，但是后面发现这样的工作量太大，而且太浪费时间了。还是选取了一个比较简单的建站方法：利用hexo来建站。</p><p>为了让国内的访问速度变快，我买了个阿里云服务器，利用nginx将网站建立起来了。不过，现在还没有备案域名，只能通过服务器的公网ip进行访问（有点丑陋）。</p><p>我比较喜欢使用obsidian来记录一些笔记，于是我把博客的<code>_post</code>文件夹链接到了我的obsidian库中。这样，我就可以使用我喜欢的obsidian来进行文章的编辑了。</p>]]></content>
     
     
     
     <tags>
       
       <tag>hexo</tag>
-      
-      <tag>blog</tag>
       
     </tags>
     
